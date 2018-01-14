@@ -230,10 +230,6 @@ all.sum
 ## [1] 0.4921114</code></pre></li>
 <li><p>В данных <a href="https://www.federalreserve.gov/releases/z1/current/z1.pdf">федерального резерва США</a> найдите показатель дохода всех домохозяйств (Household net worth) в соответвующем году, какую долю общего дохода составляют 100 богатейших людей.</p>
 <pre class="r"><code>hnw &lt;- 78.536*10^9
-sum(worths)/hnw
-## [1] 16.46379</code></pre>
-<p>Результат: 16.46379 Вероятно, ошибка в тексте задания, а желаемое решение выглядит так:</p>
-<pre class="r"><code>hnw &lt;- 78.536*10^9
 hnw / sum(worths)
 ## [1] 0.06073937</code></pre></li>
 </ol>
